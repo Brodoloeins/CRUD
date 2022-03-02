@@ -10,8 +10,8 @@ class CreateVideoController {
         const result = await service.execute({
             name,
             description,
-            category_id,    
             duration,
+            category_id,    
         });
 
         if (result instanceof Error) {

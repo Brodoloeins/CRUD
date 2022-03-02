@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { GetAllCategoriesService } from "../services/Category/GetAllCategoriesService";
+import { GetAllCategoriesService } from "../../services/Category/GetAllCategoriesService";
 
 
 class GetAllCategoriesController {
